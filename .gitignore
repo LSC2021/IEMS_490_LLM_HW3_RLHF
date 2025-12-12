@@ -1,0 +1,25 @@
+cat > .gitignore << 'EOF'
+.cache/
+dpo_rlhf_model/
+ppo_rlhf_model/
+grpo_rlhf_model/
+grpo_best/
+final_reward_model/
+processed_data/
+
+__pycache__/
+.venv/
+env/
+.ipynb_checkpoints/
+*.log
+EOF
+
+.env.env
+.env.*
+
+upload_reward.py
+upload_ppo.py
+upload_grpo.py
+upload_dpo.py
+.env
+.env.*
